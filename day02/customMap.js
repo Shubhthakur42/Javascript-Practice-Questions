@@ -6,7 +6,7 @@ function customMapper(arr,fun){
     return res;
 }
 function print(element){
-  return 2*element;
+  return 4*element;
 }
 let arr=[2,4,54,65,25,76];
 let newarr=customMapper(arr,print);
